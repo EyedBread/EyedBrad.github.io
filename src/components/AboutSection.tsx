@@ -1,14 +1,14 @@
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-20 px-6 bg-tech-light/50">
+    <section id="about" className="py-20 px-6 bg-tech-candy-darkbg/50">
       <div className="container max-w-6xl mx-auto">
         <div className="flex flex-col items-center text-center mb-12">
-          <div className="inline-block px-3 py-1 rounded-full bg-tech-light text-tech-indigo font-medium text-sm mb-2 animate-slide-in">
+          <div className="inline-block px-3 py-1 rounded-full bg-tech-candy-darkbg border border-tech-candy-pink/20 text-tech-candy-pink font-medium text-sm mb-2 animate-slide-in">
             About Me
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-tech-dark animate-slide-in-delay-1">
-            My Journey in <span className="text-tech-indigo">Computer Science</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-white animate-slide-in-delay-1">
+            My Journey in <span className="text-gradient">Computer Science</span>
           </h2>
         </div>
         
@@ -36,9 +36,9 @@ export function AboutSection() {
               { label: "Interest", value: "AI & Machine Learning" },
               { label: "Graduation", value: "Expected 2024" }
             ].map((item, index) => (
-              <div key={index} className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="text-tech-indigo font-semibold mb-1">{item.label}</p>
-                <p className="text-tech-dark">{item.value}</p>
+              <div key={index} className="bg-tech-candy-bg p-4 rounded-lg shadow-sm border border-tech-candy-purple/20">
+                <p className="text-tech-candy-pink font-semibold mb-1">{item.label}</p>
+                <p className="text-white">{item.value}</p>
               </div>
             ))}
           </div>

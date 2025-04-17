@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -68,10 +69,22 @@ export default {
 				tech: {
 					'blue': '#0EA5E9',
 					'indigo': '#8B5CF6',
-					'purple': '#9b87f5',
+					'purple': '#D946EF',
+					'pink': '#F472B6',
 					'dark': '#1A1F2C',
+					'darker': '#14151f',
 					'gray': '#8E9196',
-					'light': '#F1F0FB'
+					'light': '#F1F0FB',
+					'candy': {
+						'pink': '#FF6588',
+						'purple': '#9b87f5',
+						'blue': '#84DFFF',
+						'green': '#94E185',
+						'yellow': '#FFD166',
+						'comment': '#5C6773',
+						'bg': '#1A1F2C',
+						'darkbg': '#14151f',
+					}
 				}
 			},
 			borderRadius: {

@@ -11,7 +11,7 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-tech-candy-bg">
       <Navbar />
       <HeroSection />
       <AboutSection />
