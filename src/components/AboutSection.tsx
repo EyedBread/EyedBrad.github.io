@@ -1,4 +1,6 @@
 
+import { Award } from "lucide-react";
+
 export function AboutSection() {
   return (
     <section id="about" className="py-20 px-6 bg-tech-candy-darkbg/50">
@@ -43,7 +45,26 @@ export function AboutSection() {
             ))}
           </div>
         </div>
+
+        {/* New Achievement Section */}
+        <div className="mt-12 bg-tech-candy-bg/50 p-6 rounded-lg border border-tech-candy-purple/20 animate-slide-in-delay-4">
+          <div className="flex items-center justify-start gap-4 mb-4">
+            <Award className="text-tech-candy-pink w-8 h-8" />
+            <h3 className="text-xl font-semibold text-white">Recent Achievement</h3>
+          </div>
+          <div className="flex flex-col md:flex-row items-center gap-4">
+            <div className="flex-shrink-0 bg-tech-candy-purple/20 p-3 rounded-full">
+              <Trophy className="w-10 h-10 text-tech-candy-purple" />
+            </div>
+            <div>
+              <p className="text-tech-gray font-medium">Hackathon Winner</p>
+              <p className="text-white text-sm">1st Place at Regional Tech Innovation Hackathon</p>
+              <p className="text-tech-gray text-xs">Developed an AI-powered solution for urban sustainability</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
 }
+
