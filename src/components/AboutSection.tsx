@@ -1,5 +1,5 @@
 
-import { Award } from "lucide-react";
+import { Award, Trophy } from "lucide-react";
 
 export function AboutSection() {
   return (
@@ -67,4 +67,3 @@ export function AboutSection() {
     </section>
   );
 }
-
